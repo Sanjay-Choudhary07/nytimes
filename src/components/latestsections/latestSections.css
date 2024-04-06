@@ -1,0 +1,103 @@
+.latest-section {
+    margin-top: 35px;
+    border-bottom: 2px solid var(--color-stroke-quaternary, #DFDFDF);
+}
+
+.latest-section-ul {
+    list-style: none;
+    padding: 0 15px;
+    border-bottom: 1px solid var(--color-stroke-quaternary, #DFDFDF);
+    border-top: 2px solid black;
+    display: flex;
+    font-family: "franklin-regular", 'Libre-Franklin', serif;
+    cursor: pointer;
+    margin-bottom: 0px;
+    height: 40px;
+}
+
+.latest-section-li {
+    border: 1px solid transparent;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 15px;
+    margin-left: 0;
+    position: relative;
+    height: 40px;
+    width: 136px;
+}
+
+.latest-section-not-clicked {
+    display: block;
+    padding: 8px 30px 8px;
+    text-decoration: none;
+    color: var(--color-content-quaternary, #727272);
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clicked-section {
+    padding-top: 40px;
+    position: relative;
+}
+
+.latest-section-clicked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 136px;
+    background-color: white;
+    border: 1px solid var(--color-stroke-quaternary, #DFDFDF);
+    border-bottom: 1px solid white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    transform: translateY(-11px);
+    height: 51px;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    position: absolute;
+}
+
+.latest-section-clicked-again {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 136px;
+    background-color: white;
+    border: 1px solid var(--color-stroke-quaternary, #DFDFDF);
+    border-bottom: 1px solid white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    transform: translateY(-11px);
+    height: 51px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    position: relative;
+    float: left;
+}
+
+.search-icon-latest-section {
+    height: 16px;
+    width: 16px;
+    opacity: 0.40;
+    padding-right: 7px;
+}
+
+
+@media screen and (max-width:1000px) {
+    .latest-section-ul {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .latest-section-ul {
+        width: 89vw;
+    }
+}
