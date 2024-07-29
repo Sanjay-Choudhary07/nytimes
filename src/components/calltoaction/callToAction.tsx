@@ -1,4 +1,3 @@
-import "./callToAction.css"
 import gift_icon from "../../assets/images/gift.svg"
 import share_icon from "../../assets/images/share.svg"
 import save_icon from "../../assets/images/save.svg"

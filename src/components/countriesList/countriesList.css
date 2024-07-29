@@ -26,7 +26,6 @@
        text-decoration: underline;
     }
     
-    
     @media screen and (max-width:425px){
         .country-link{
             text-decoration: none;
